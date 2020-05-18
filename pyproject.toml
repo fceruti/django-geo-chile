@@ -3,9 +3,17 @@ name = "django-geo-chile"
 version = "0.1.0"
 description = ""
 authors = ["Francisco Ceruti <hello@fceruti.com>"]
+maintainers = ["Francisco Ceruti <hello@fceruti.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/fceruti/django-geo-chile"
+packages = [
+    { include = "geo_chile" },
+]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -13,3 +21,6 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.poetry.urls]
+issues = "https://github.com/fceruti/django-geo-chile/issues"
