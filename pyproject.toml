@@ -13,14 +13,16 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.6"
+django = ">=2.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+pylint = "^2.5.2"
+pylint-django = "^2.0.15"
+flake8 = "^3.8.1"
+black = "^19.10b0"
 
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-
-[tool.poetry.urls]
-issues = "https://github.com/fceruti/django-geo-chile/issues"
