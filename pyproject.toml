@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "django-geo-chile"
-version = "1.0.0"
-description = "Region, Province and Commune populated django models."
+version = "1.0.1"
+description = "Models and management command to load Chile's Administrative Geographical data from official source."
 authors = ["Francisco Ceruti <hello@fceruti.com>"]
 maintainers = ["Francisco Ceruti <hello@fceruti.com>"]
 license = "MIT"
