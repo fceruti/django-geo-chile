@@ -8,11 +8,11 @@ from geo_chile.models import Commune, Province, Region
 
 
 class Command(BaseCommand):
-    help = "Load data to populate geo_chile's models"
+    help = "Download and populate chilean administrative data"
 
     def handle(self, *args, **options):
         self.load_communes(self.load_provinces(self.load_regions()))
-        print("Drink Pisco :)")
+        print("Drink Wine :)")
 
         Region.objects.filter(code="16").update(lat=D("-36.6191"), lng=D("-72.0182"))
 
