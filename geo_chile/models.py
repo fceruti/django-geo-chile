@@ -13,6 +13,8 @@ class Region(models.Model):
 
     class Meta:
         ordering = ["code"]
+        verbose_name = "Región"
+        verbose_name_plural = "Regiones"
 
 
 class Province(models.Model):
@@ -28,6 +30,8 @@ class Province(models.Model):
 
     class Meta:
         ordering = ["region", "name"]
+        verbose_name = "Provincia"
+        verbose_name_plural = "Provincias"
 
 
 class Commune(models.Model):
@@ -44,3 +48,5 @@ class Commune(models.Model):
 
     class Meta:
         ordering = ["region", "name"]
+        verbose_name = "Comuna"
+        verbose_name_plural = "Comunas"
