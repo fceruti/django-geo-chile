@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-geo-chile"
-version = "1.0.1"
+version = "1.0.2"
 description = "Models and management command to load Chile's Administrative Geographical data from official source."
 authors = ["Francisco Ceruti <hello@fceruti.com>"]
 maintainers = ["Francisco Ceruti <hello@fceruti.com>"]
